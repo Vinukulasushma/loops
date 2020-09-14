@@ -1,28 +1,26 @@
 #include<stdio.h>
 int main()
 {
-   int num 1=omlet\n,2=boiled egg\n,3=water bottle\n,4=pasta\n,5=chicken biriyani\n;
    int choice=0;
-   printf("select a food item:1\n,2\n,3\n,4\n,5\n");
+   printf("select a food item:1omlet price 30\n,2boiled egg price 20\n,3water bottle price 30\n,4pasta price 80\n,5chicken biriyani price 150\n");
    scanf("%d",&choice);
    switch(choice)
    {
           case 1:
-                 printf(" choice is 1\n");
+                 printf(" choice is omlet price 30\n");
                  break;
           case 2:
-                 printf("choice is 2\n");
+                 printf("choice is boiled egg price 20\n");
                  break;
           case 3:
-                 printf("choice is 3\n");
+                 printf("choice is water bottle price 30\n");
                  break;
           case 4:
-                 printf("choice is 4\n");
+                 printf("choice is pasta price 80\n");
                  break;
           case 5:
-                 printf("choice is 5\n");
+                 printf("choice is chicken biriyani price 150\n");
                  break;
-            default("invalid choice");
      }
      return 0;
  }
